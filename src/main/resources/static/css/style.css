@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.mainWrapper {
+	display: flex;
+	gap: 80px;
+	margin-top: 30px;
+	width: 75%;
+	
+}
+
+.register, .login {
+	flex: 2;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: lightgray;
+		
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: end;
+}
+
+.buttons {
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 5px 10px;
+	margin-top: 5px;
+}
+
+.red {
+	color: red;
+}
+
+.purple {
+	color: rgb(153,0,255);
+}
+
+.thoughts {
+	width: 400px;
+	padding: 20px 0;
+	margin-left: 20px;
+
+}
+
+.welcome {
+	color: rgb(195,112,108);
+}
+
+.deco-none {
+	text-decoration: none;
+}
+
+.color-1 {
+	background-color: rgb(109,80,102); 
+}
+
+
